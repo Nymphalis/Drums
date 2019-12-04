@@ -1,0 +1,42 @@
+body
+{
+  font-size: 8px;
+  background-image: radial-gradient(circle, #a65db1, #7f488a, #5a3464, #392140, #1b0e1f);
+
+}
+.keys {
+    display:flex;
+    flex:1;
+    min-height:100vh;
+    align-items: center;
+    justify-content: center;
+}
+#key {
+    border:2px solid black;
+    height: 100px ;
+    width: 100px;
+    border-radius:5px;
+    margin:2px;
+    font-size: 18px;
+    padding:1rem .5rem;
+    transition:all .09s;
+    width:100px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    background:rgba(0,0,0,0.4);
+    text-shadow:0 0 5px ;
+}
+
+#playRecording{ 
+    border:2px solid black;
+    border-radius:5px;
+    margin:2px;
+    font-size: 18px;
+    padding:1rem .5rem;
+    transition:all .09s;
+    color:rgb(255, 255, 255);
+    background:rgba(0,0,0,0.4);
+    text-shadow:0 0 5px ;
+}
+
+
